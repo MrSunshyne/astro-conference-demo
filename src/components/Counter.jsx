@@ -15,7 +15,7 @@ const Counter = () => {
   };
 
   return (
-    <div className='text-3xl text-white font-bold'>
+    <div className='text-3xl text-white font-bold z-20 relative'>
       <h2>Counter: {count}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
